@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Silvio Sampaio",
+      "email": "silvio@teste.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "Omar Sampaio",
+      "email": "omar@teste.com",
+      "password": "123"
+    },
+    {
+      "id": "345f",
+      "name": "teste",
+      "email": "teste@email.com",
+      "password": "123"
+    },
+    {
+      "id": "2e88",
+      "name": "paulo",
+      "email": "paulo@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1fd0",
+      "name": "Usuario criado",
+      "email": "criado@teste.com",
+      "password": "123"
+    }
+  ],
+  "feed": {
+    "stories": [
+      {
+        "id": 1,
+        "cover": "http://picsum.photos/500",
+        "owner": {
+          "username": "teste123",
+          "photo": "http://picsum.photos/50"
+        },
+        "creactedAt": "2022-04-21T12:32"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "cover": "http://picsum.photos/500",
+        "description": "Interview: Shoe Designer John Fluevog On New Book, Spirituality And Slow",
+        "isLiked": false,
+        "likeInfos": {
+          "photos": [
+            "http://picsum.photos/50",
+            "http://picsum.photos/50",
+            "http://picsum.photos/50"
+          ],
+          "description": "Liked by 10,098"
+        },
+        "owner": {
+          "username": "teste123",
+          "photo": "http://picsum.photos/50"
+        },
+        "creactedAt": "2022-04-21T12:32"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "1",
+      "cover": "http://picsum.photos/500",
+      "title": "Womans",
+      "items": 1232
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Large striped cardigan",
+      "price": 1080,
+      "brand": "Raf Simons",
+      "cover": "http://picsum.photos/500",
+      "categoryId": 1,
+      "type": "Shirts",
+      "description": "Enjoy the beauty of italian cotton all over your body. this item will fit",
+      "sizes": [
+        {
+          "label": "P",
+          "value": "P"
+        },
+        {
+          "label": "M",
+          "value": "M"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        },
+        {
+          "label": "XG",
+          "value": "XG"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Large striped cardigan",
+      "price": 1080,
+      "brand": "Raf Simons",
+      "cover": "http://picsum.photos/500",
+      "categoryId": 1,
+      "type": "Shirts",
+      "description": "Enjoy the beauty of italian cotton all over your body. this item will fit",
+      "sizes": [
+        {
+          "label": "P",
+          "value": "P"
+        },
+        {
+          "label": "M",
+          "value": "M"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        },
+        {
+          "label": "XG",
+          "value": "XG"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "step": "waiting",
+      "creactedAt": "2022-04-21T12:32",
+      "orderNumber": "1231313",
+      "trackingNumber": "IW3213213131",
+      "totalValue": 80.58,
+      "totalItems": 3
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "step": "Success",
+      "creactedAt": "2022-04-21T12:32",
+      "orderNumber": "1231313",
+      "trackingNumber": "IW3213213131",
+      "totalValue": 100,
+      "totalItems": 1
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "step": "in progress",
+      "creactedAt": "2022-04-21T12:32",
+      "orderNumber": "1231313",
+      "trackingNumber": "IW3213213131",
+      "totalValue": 70.5,
+      "totalItems": 2
+    }
+  ]
+}

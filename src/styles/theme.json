@@ -1,0 +1,28 @@
+{
+    "colors": {
+        "primary": "#eb001b",
+        "light": "#FFFFFF",
+        "success": "#6AB04C",
+        "warning": "#f9ca24",
+        "danger": "#eb001b",
+        "dark": "#130f40",
+        "gray50": "#535c68",
+        "muted": "#95afc0",
+        "black": "#000000"
+    },
+    "fonts": {
+        "title": {
+            "size": {
+                "small": "22px",
+                "normal": "30px",
+                "big": "40px"
+            }
+        },
+        "text": {
+            "size": {
+                "small": "13px",
+                "normal": "17px"
+            }
+        }
+    }
+}
